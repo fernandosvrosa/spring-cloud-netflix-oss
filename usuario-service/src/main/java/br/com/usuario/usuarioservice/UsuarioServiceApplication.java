@@ -1,16 +1,15 @@
-package br.com.pedido.pedidoservice;
+package br.com.usuario.usuarioservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients
-public class PedidoServiceApplication {
+public class UsuarioServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PedidoServiceApplication.class, args);
+		SpringApplication.run(UsuarioServiceApplication.class, args);
 	}
+
 }
